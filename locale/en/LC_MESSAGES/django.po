@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24 10:57+0500\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: .\language\templates\index.html:6 .\language\templates\index.html:12
+msgid "Bosh sahifa"
+msgstr "Home Page"
+
+#: .\language\templates\index.html:11
+msgid "Bu matn tarjima qilinadi"
+msgstr ""
+
+#: .\language\templates\index.html:13 .\language\templates\index.html:25
+msgid "Tilni o‘zgartirish"
+msgstr "Change language"
+
+#: .\language\templates\index.html:15 .\language\views.py:12
+msgid "Ism"
+msgstr ""
+
+#: .\language\views.py:8
+msgid "Salom! Xush kelibsiz!"
+msgstr "Welcome! You're here!"
+
+#: .\language\views.py:
+msgid "Bu bizning vebsaytimiz."
+msgstr "This is our website."
+
+#: .\language\views.py:10
+#, fuzzy
+#| msgid "Tilni o‘zgartirish"
+msgid "Tilni o'zgartirish"
+msgstr "Change language"

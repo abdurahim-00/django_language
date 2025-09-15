@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{%  load i18n %}
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% trans "Bosh sahifa" %}</title>
+</head>
+<body>
+    <h1>{{ greeting }}</h1>
+    <p>{{ about }}</p>
+    <p>{% trans "Bu matn tarjima qilinadi" %}</p>
+    <span>{% trans "Bosh sahifa" %}</span> <br>
+    <span>{% trans "Tilni o‘zgartirish" %}</span> 
+    <span>{{ change_language }}</span>
+    
+    <span>{% trans "Ism" %}</span>
+    <span>{{  name }}</span> <br>
+
+    <form action="{% url 'change_language' %}" method="post">
+        {% csrf_token %}
+        <select name="language">
+            <option value="uz" {% if LANGUAGE_CODE == 'uz' %}selected{% endif %}>O‘zbekcha</option>
+            <option value="ru" {% if LANGUAGE_CODE == 'ru' %}selected{% endif %}>Русский</option>
+            <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}>English</option>
+        </select>
+        <button type="submit">{% trans "Tilni o‘zgartirish" %}</button>
+    </form>
+</body>
+</html>

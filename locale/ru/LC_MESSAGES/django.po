@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+
+#: core/templates/core/home.html:5
+msgid "Salom! Xush kelibsiz!"
+msgstr "Здравствуйте! Добро пожаловать!"
+
+#: core/templates/core/home.html:10
+msgid "Tilni o‘zgartirish"
+msgstr "Сменить язык"
+
+#: core/views.py:8
+msgid "Bu bizning vebsaytimiz."
+msgstr "Это наш сайт."
+
+#: core/templates/core/home.html:2
+msgid "Bosh sahifa"
+msgstr "Главная страница"
+
+
